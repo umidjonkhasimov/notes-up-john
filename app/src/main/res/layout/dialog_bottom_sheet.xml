@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_primary"
+    android:orientation="vertical"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_5sdp"
+        android:src="@drawable/ic_line"
+        app:tint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <FrameLayout
+            android:id="@+id/color_picker_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_1" />
+
+            <ImageView
+                android:id="@+id/tick_color_1"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_2" />
+
+            <ImageView
+                android:id="@+id/tick_color_2"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_3" />
+
+            <ImageView
+                android:id="@+id/tick_color_3"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/note_color_black" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_4" />
+
+            <ImageView
+                android:id="@+id/tick_color_4"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_5" />
+
+            <ImageView
+                android:id="@+id/tick_color_5"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_6" />
+
+            <ImageView
+                android:id="@+id/tick_color_6"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/color_picker_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_5sdp">
+
+            <View
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:background="@drawable/note_color_7" />
+
+            <ImageView
+                android:id="@+id/tick_color_7"
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_tick"
+                android:visibility="gone"
+                app:tint="@color/white" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/manrope"
+            android:gravity="end|center_vertical"
+            android:paddingEnd="@dimen/_5sdp"
+            android:text="Pick Color"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_image_pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackground"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:src="@drawable/ic_image"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/manrope"
+            android:text="Add Image"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

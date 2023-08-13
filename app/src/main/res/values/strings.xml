@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NotesUp</string>
+    <string name="notes">My Notes</string>
+    <string name="search">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="note_desc">Put Your Notes</string>
+
+    // Permissions
+    <string name="storage_read_perm_text">This app needs access to your storage.</string>
+    <string name="share_text">Download this coolest app ever to save your notes</string>
+    <string name="share_link">https://play.google.com/store/apps/details?id=uz.gita.notesup</string>
+</resources>

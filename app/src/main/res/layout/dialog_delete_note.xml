@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/bg_delete_dialog">
+
+    <TextView
+        android:id="@+id/tv_title_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:fontFamily="@font/manrope"
+        android:text="Move to trash?"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:text="No"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_positive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_edit" />
+
+    <Button
+        android:id="@+id/btn_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_negative"
+        app:layout_constraintTop_toTopOf="@+id/btn_negative" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="16dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/grey"
+        android:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_negative"
+        app:layout_constraintEnd_toStartOf="@+id/btn_positive"
+        app:layout_constraintStart_toEndOf="@+id/btn_negative"
+        app:layout_constraintTop_toTopOf="@+id/btn_negative" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

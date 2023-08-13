@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_all"
+            android:iconTint="@color/dark_black"
+            android:title="All Notes" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_delete"
+            android:iconTint="@color/dark_black"
+            android:title="Trash" />
+    </group>
+
+    <item android:title="Communicate"
+        android:id="@+id/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:iconTint="@color/dark_black"
+                android:title="Share the app" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:iconTint="@color/dark_black"
+                android:title="Contact the developer" />
+        </menu>
+    </item>
+</menu>

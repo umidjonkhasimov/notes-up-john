@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_black">#10141C</color>
+    <color name="color_primary_dark">#10141C</color>
+    <color name="light_black">#171C26</color>
+    <color name="color_primary">#293142</color>
+    <color name="color_secondary">#7483A3</color>
+    <color name="color_control_highlight">#353F55</color>
+    <color name="text_color">#606570</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_accent">#4E33FF</color>
+    <color name="blue">#4E33FF</color>
+    <color name="yellow">#ffd633</color>
+
+
+    // Note Colors
+    <color name="note_color_default">#606570</color>
+    <color name="note_color_blue">#4E33FF</color>
+    <color name="note_color_white">#FFFFFF</color>
+    <color name="note_color_yellow">#FFD633</color>
+    <color name="note_color_purple">#AE3B76</color>
+    <color name="note_color_green">#0AEBAF</color>
+    <color name="note_color_orange">#FF7746</color>
+    <color name="note_color_black">#202734</color>
+
+
+</resources>
